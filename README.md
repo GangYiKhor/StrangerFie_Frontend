@@ -35,14 +35,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## To Deploy onto Azure Static Web App
 
+You will need to redo as it is using different Azure Deploy Key
+
 1. Upload this repo to [GitHub](https://github.com/) or any other Git Providers
 2. Create your Azure Static Web App on [Azure Portal](https://portal.azure.com/#home)
 3. Link your repo from Git Provider
 4. It will automatically publish (It will fail the first time)
 5. Go to GitHub repo `Settings` > `Security` > `Secrets and variables` > `Actions`
 6. Add new repository secrets `REACT_APP_BACKEND_URL: "BACKEND_SERVER_URL"`
-7. _**FOR FUTURE REFERENCE**_ (This is already done for this repo)
-   - Add these lines below `Build And Deploy` steps
+7. Add these lines below `Build And Deploy` steps
 
 ```
 - name: Build And Deploy
