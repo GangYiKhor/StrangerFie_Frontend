@@ -4,6 +4,8 @@ This prototype is built for a concept of group photo-taking with strangers. Anyo
 
 This is a prototype built for Interaction Design Coursework of BSc IT at UWE, Bristol
 
+The webpage is deployed on https://agreeable-water-094a25e03.5.azurestaticapps.net
+
 ## Environment Settings
 
 - Node Version `v20.3.1`
